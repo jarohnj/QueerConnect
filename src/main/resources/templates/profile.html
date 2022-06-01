@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head">
+</head>
+<body>
+<h1 class="text-center">Dating Profile</h1>
+<form method="post" action="add-profile" class="form-group">
+        <table class="table table-striped table-bordered table-sm">
+            <tr>
+                <td>What's Your Name?</td>
+                <td><input type="text" name="name" class="form-control"></td>
+            </tr>
+            <tr>
+                <td>What Are Your Hobbies?</td>
+                <td><textarea id="name" name="name" class="form-control"></textarea></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
